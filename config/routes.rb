@@ -1,11 +1,22 @@
 Rails.application.routes.draw do
-  get 'landing_page/About'
+  root 'landing_page#About'
 
-  get 'landing_page/Projects'
+  get 'about' => 'landing_page#About'
 
-  get 'landing_page/Github'
+  get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 
-  get 'landing_page/LinkedIn'
+  get 'projectsHardware' => 'landing_page#ProjectsHardware'
+
+  get 'projectsPhotos' => 'landing_page#ProjectsPhotos'
+ 
+  get 'github' => 'landing_page#Github'
+
+  get 'linkedIn' => 'landing_page#LinkedIn'
+
+  get 'resume' => 'landing_page#Resume'
+
+  get 'contact' => 'landing_page#Contact'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
