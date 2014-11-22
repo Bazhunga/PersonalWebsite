@@ -2,6 +2,9 @@ class LandingPageController < ApplicationController
   def About
   end
 
+  def Projects
+  end
+  
   def ProjectsSoftware
   end
 

@@ -1,15 +1,32 @@
 $maxlength: 300px;
 
+//*******************************************************
+//About Page
+//*******************************************************
+
+.centerpiece_about {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 .profile-picture{
 	// width: $maxlength;
 	// height: $maxlength;
-	background-image: "DemoDay.jpg";
-	border-radius: 200px;
-	max-width: 30%;
-	height: auto;
+	border-radius: 300px;
+    max-width: 40%;
 	float: left;
-	// -webkit-border-radius: 100px;
+	margin-right: 50px;
+	// margin-left: 16%;
+
+  	// -webkit-border-radius: 100px;
 	// -mox-border-radius: 100px;
+}
+.intro-text{
+	margin-left: 5%
 }
 p.motto{
 	font-size: 20px;
@@ -19,18 +36,42 @@ p.block{
 	margin: 40px;
 }
 .box{
-	float:right;
-    margin-right: 10%;
-    margin-left: 10px;
-    max-width: 55%;
+	margin-left: 5%;
+	text-align: left;
+	display:inline-block;
+    margin-left: 30px;
+    max-width: 35%;
 
 }
-// h1, p{
-// 	float: right;
-// 	clear: both;
-// 	text-align: left
-// }
 
-// Place all the styles related to the LandingPage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+//*******************************************************
+//Projects
+//*******************************************************
+
+h2{
+
+}
+.centerpiece_project {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.container {
+	margin-top: 10px;
+	margin-left: 0px;
+
+}
+.projecttile {
+	width: 170px;
+	height: 170px;
+	border: 2px solid;
+	border-color: #000;
+	border-radius:10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+}
