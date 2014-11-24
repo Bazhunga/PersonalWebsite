@@ -6,6 +6,8 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 </head>
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -35,10 +37,10 @@
             <li><%= link_to "Photography", projectsPhotos_path%></li>
           </ul>
         </li>
-        <li class =<%= @nav_status[2]%>><%= link_to "Github", github_path%></li>
-        <li class =<%= @nav_status[3]%>><%= link_to "LinkedIn", linkedIn_path%></li>
-        <li class =<%= @nav_status[4]%>><%= link_to "Resume", resume_path%></li>
-        <li class =<%= @nav_status[5]%>><%= link_to "Contact", contact_path%></li>
+        <li class =<%= @nav_status[2]%>><%= link_to "Github", "https://github.com/Bazhunga"%></li> <!--Was github_path-->
+        <li class =<%= @nav_status[3]%>><%= link_to "LinkedIn", "https://ca.linkedin.com/pub/kevin-zhu/89/164/676/"%></li> <!--Was linkedIn_path-->
+        <li class =<%= @nav_status[4]%>><%= link_to "Resume", resume_path%></li> <!--Was resume_path-->
+        <li class =<%= @nav_status[5]%>><%= link_to "Contact", contact_path%></li> <!--Was contact_path-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

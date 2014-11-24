@@ -7,11 +7,13 @@ $navbar-default-link-active-color: #BDBDBD;
 $navbar-default-link-hover-color: #FF9A65;
 $navbar-default-link-color: #FFF;
 $body-bg: #000000;
-
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$text-color: #DBDBDB;
 
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 
 
 .dropdown:hover .dropdown-menu {

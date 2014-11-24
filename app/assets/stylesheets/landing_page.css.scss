@@ -11,6 +11,9 @@ $maxpicwidth: 352px;
 td.pic{
 	width: 30%;
 }
+td.text{
+	width: 60%;
+}
 
 .centerpiece_about {
 	margin-left: auto;
@@ -38,10 +41,16 @@ td.pic{
 .intro-text{
 	margin-left: 10%;
 	color: #FFF;
+	font-family: 'Lato', serif;
+	font-size: 18px;
+}
+h1{
+	font-size: 50px;
 }
 p.motto{
-	font-size: 20px;
+	font-size: 30px;
 	font-style: italic;
+	color: #B8B8B8;
 }
 p.block{
 	margin: 40px;
