@@ -7,8 +7,6 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,7 +23,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><%= link_to "About Me", root_path%></li> <!--took out class="active"-->
+        <li class =<%= @nav_status[0]%>><%= link_to "About Me", root_path%></li> <!--took out class="active"-->
         <li class="dropdown">
         	<!-- span class caret creates the down arrow thing -->
           <a href="/projects" class="dropdown-toggle" role="button" aria-expanded="false">Projects <span class="caret"> </span></a>
@@ -37,14 +35,15 @@
             <li><%= link_to "Photography", projectsPhotos_path%></li>
           </ul>
         </li>
-        <li><%= link_to "Github", github_path%></li>
-        <li><%= link_to "LinkedIn", linkedIn_path%></li>
-        <li><%= link_to "Resume", resume_path%></li>
-        <li><%= link_to "Contact", contact_path%></li>
+        <li class =<%= @nav_status[2]%>><%= link_to "Github", github_path%></li>
+        <li class =<%= @nav_status[3]%>><%= link_to "LinkedIn", linkedIn_path%></li>
+        <li class =<%= @nav_status[4]%>><%= link_to "Resume", resume_path%></li>
+        <li class =<%= @nav_status[5]%>><%= link_to "Contact", contact_path%></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
 
 <!-- <nav class="navbar navbar-default" role="nagivation">
 	<div class="container-fluid">
@@ -66,5 +65,4 @@
 
 <%= yield %>
 
-</body>
 </html>

@@ -2,9 +2,13 @@ $navbar-height: 40px;
 $navbar-default-bg: #1774AD;
 $navbar-default-brand-color: #FFF;
 $navbar-default-border: #536899;
-$navbar-default-link-active-bg: #5CBCF7;
+$navbar-default-link-active-bg: #1A83C4;
+$navbar-default-link-active-color: #BDBDBD;
 $navbar-default-link-hover-color: #FF9A65;
 $navbar-default-link-color: #FFF;
+$body-bg: #000000;
+
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -12,4 +16,10 @@ $navbar-default-link-color: #FFF;
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.bg{
+	background: url(sbg_cube_darkblur.jpg) repeat fixed;
+	background-size: 100%;
+	background-position: -5px -5px;
 }
