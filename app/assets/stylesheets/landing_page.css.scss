@@ -1,5 +1,6 @@
 $maxpicwidth: 352px;
-
+$darkblue: #346183;
+$darkerblue: #121d24;
 
 //*******************************************************
 //About Page
@@ -74,14 +75,14 @@ h2{
 .centerpiece_project {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5%;
 	margin-bottom: auto;
+	padding-top: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
 .container {
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-left: 0px;
 
 }
@@ -94,4 +95,15 @@ h2{
 	margin-right: 20px;
 	margin-bottom: 20px;
 
+}
+.empty{
+	height : 170px;
+}
+#backgradient{
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient($darkerblue, $darkblue ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($darkerblue, $darkblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($darkerblue, $darkblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($darkerblue, $darkblue); /* Standard syntax (must be last) */
 }
