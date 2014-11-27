@@ -73252,3 +73252,897 @@ Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:08:11 -050
 
 
 Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:08:11 -0500
+
+
+Started GET "/projects/Spur" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+Processing by ProjectsController#Spur as HTML
+  Rendered projects/Spur.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 161ms (Views: 160.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:49 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:08:50 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:09:01 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 181ms (Views: 180.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:09:02 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:09:02 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:09:02 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:09:02 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:09:49 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 743ms (Views: 742.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:09:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 02:10:14 -0500
+Processing by LandingPageController#About as HTML
+  Rendered landing_page/About.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 682ms (Views: 680.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/DemoDay.jpg" for 127.0.0.1 at 2014-11-27 02:10:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 02:10:32 -0500
+Processing by LandingPageController#About as HTML
+  Rendered landing_page/About.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 752ms (Views: 751.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/DemoDay.jpg" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:10:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 02:10:40 -0500
+Processing by LandingPageController#About as HTML
+  Rendered landing_page/About.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 723ms (Views: 722.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/DemoDay.jpg" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:10:41 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:10:47 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 692ms (Views: 691.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:10:48 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:11:08 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 733ms (Views: 732.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:08 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:08 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:11:09 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:11:13 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 747ms (Views: 746.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:11:14 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 720ms (Views: 718.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:27 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:11:28 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:11:56 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 722ms (Views: 721.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:11:57 -0500
+
+
+Started GET "/projects/Spur" for 127.0.0.1 at 2014-11-27 02:12:15 -0500
+Processing by ProjectsController#Spur as HTML
+  Rendered projects/Spur.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 178ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 02:12:16 -0500
+Processing by LandingPageController#About as HTML
+  Rendered landing_page/About.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 159ms (Views: 158.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/DemoDay.jpg" for 127.0.0.1 at 2014-11-27 02:12:17 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:12:17 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 128ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-11-27 02:12:49 -0500
+Processing by LandingPageController#Projects as HTML
+  Rendered landing_page/Projects.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 720ms (Views: 719.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom_nav_styles.css?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/landing_page.css?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/landing_page.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/Heatmap.JPG" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/hackathought_icon.png" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/smsnow_icon.png" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/myocont.jpg" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/myomeu.jpg" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/placeholder2.jpg" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
+
+
+Started GET "/assets/sbg_cube_darkblur.jpg" for 127.0.0.1 at 2014-11-27 02:12:50 -0500
