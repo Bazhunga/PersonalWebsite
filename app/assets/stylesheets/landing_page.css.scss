@@ -6,6 +6,12 @@ $darkerblue: #121d24;
 //About Page
 //*******************************************************
 
+.bg{
+	background: url(sbg_cube_darkblur.jpg) repeat fixed;
+	background-size: 100%;
+	background-position: -5px -5px;
+}
+
 .about_table{
 	table-layout: fixed;
 }
@@ -66,7 +72,7 @@ p.block{
 }
 
 //*******************************************************
-//Projects
+//Projects Page
 //*******************************************************
 
 h2{
@@ -87,12 +93,11 @@ h2{
 
 }
 .projecttile {
-	width: 302px;
-	height: 170px;
-	border: 2px solid;
-	border-color: #000;
-	border-radius:10px;
-	margin-right: 20px;
+	width: 100%;
+	height: 100%;
+	
+	
+	margin-right: 10px;
 	margin-bottom: 20px;
 
 }
@@ -107,3 +112,12 @@ body.backgradient{
     background: -moz-linear-gradient($darkerblue, $darkblue); /* For Firefox 3.6 to 15 */
     background: linear-gradient($darkerblue, $darkblue); /* Standard syntax (must be last) */
 }
+
+
+
+
+
+
+
+
+
