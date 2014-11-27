@@ -34,4 +34,5 @@ class LandingPageController < ApplicationController
   def Contact
     @nav_status = ["","","","","","active"]
   end
+
 end

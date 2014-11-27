@@ -1,9 +1,25 @@
 Rails.application.routes.draw do
+
   root 'landing_page#About'
 
   get 'about' => 'landing_page#About'
 
   get 'projects' => 'landing_page#Projects'
+
+    get 'projects/Spur'
+
+    get 'projects/Allegro'
+
+    get 'projects/smsNOW'
+
+    get 'projects/myoWASD'
+
+    get 'projects/AutoComis'
+
+    get 'projects/LesTR'
+
+    get 'projects/SproutMonitor'
+
   
   get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 
@@ -19,7 +35,19 @@ Rails.application.routes.draw do
 
   get 'contact' => 'landing_page#Contact'
 
+ # get 'projects/spur' => 'landing_page#projects/Spur'
 
+ #  get 'projects/Allegro'
+
+ #  get 'projects/smsNOW'
+
+ #  get 'projects/myoWASD'
+
+ #  get 'projects/AutoComis'
+
+ #  get 'projects/LesTR'
+
+ #  get 'projects/SproutMonitor'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
