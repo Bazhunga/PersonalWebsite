@@ -1,2 +1,116 @@
-<h1>Projects#Allegro</h1>
-<p>Find me in app/views/projects/Allegro.html.erb</p>
+<body class = "bg">	
+	<!-- 2 Panel Style. Left is Title, classifications and right is description-->
+	<div class = "allWrap">
+		<div class = "row">
+			<div class ="bigTitle">ThoughtSpot Allegro</div>
+		</div>
+		<div class = "row">
+			<div class ="subBigTitle">An intimate companion for your mental health needs</div>
+		</div>
+		<div class = "row">
+			<!-- Description section -->
+			<div class = "col-md-6">
+				<div class = "descriptionContainer">
+					<div class = "row">
+						<div class="descSubtitle">What it is</div>
+						<div class="descElab">
+							<p>
+							Using an android device and 3 Onyx Beacons, we're able to track the location of the device in terms of x and y coordinates by obtaining the distance to the 3 beacons and then trilaterating the device's position. These coordinate pairs are then uploaded to the db2 database provided by bluemix, where a "heat" map can be generated. 
+							</p>
+							<p>The hotspots indicate where the phone has been positioned for the longest and the spots get redder the more coordinate pairs there are around the area. We made this during SportsHack14 to push forward the idea of tracking players on any given playing field to gather rich data about player, and subsequently, team behaviour during a match. 
+							</p>
+							<p>The data can be packaged and then marketed to teams, players and broadcast stations alike for purposes ranging from self improvement to allowing more viewers to comprehend a game deeply. 
+							</p>
+						</div>
+						<div class="descSubtitle">Motivation</div>
+						<div class="descElab">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam. Etiam malesuada tempor ultrices. Sed varius diam eu ex accumsan pulvinar vitae bibendum est. Nunc aliquet pellentesque luctus. Nam nunc tortor, consequat id odio sed, fringilla iaculis neque. Donec porttitor non erat ac tempus. Nulla non pulvinar tortor. Vestibulum vehicula rutrum augue. Etiam viverra maximus mauris, vel aliquam risus feugiat id. Etiam ullamcorper tempor felis at elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="descSubtitle">Source Code</div>
+						<div class="descElab">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam. Etiam malesuada tempor ultrices. Sed varius diam eu ex accumsan pulvinar vitae bibendum est. Nunc aliquet pellentesque luctus. Nam nunc tortor, consequat id odio sed, fringilla iaculis neque. Donec porttitor non erat ac tempus. Nulla non pulvinar tortor. Vestibulum vehicula rutrum augue. Etiam viverra maximus mauris, vel aliquam risus feugiat id. Etiam ullamcorper tempor felis at elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Title, brief, photo section -->
+			<div class = "col-md-6">
+				<div class = "mediaContainer">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="false" data-interval="false">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner" role="listbox">
+					    	<div class="item active">
+				      			<%= image_tag("Heatmap.JPG", :alt => "HeatMap", :class => "carouImage") %>
+					      		<div class="carousel-caption">
+						        	Heatmapping the skating rink
+					      		</div>
+					    	</div>
+					    	<div class="item">
+					      		<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "carouImage") %>
+					      		<div class="carousel-caption">
+						        
+					      		</div>	
+					    	</div>
+					    	
+						</div>
+
+					  	<!-- Controls -->
+					  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    	<span class="sr-only">Previous</span>
+					  	</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    	<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<!-- <div class = "row"> -->
+						<!-- <div class ="carouselContainer"> -->
+							
+						<!-- </div> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			<div class = "col-md-6">
+				<div class = "bulletContainer">
+					
+					<div class = "row">
+						<div class = "col-md-3">
+							<div id="circle"></div>
+						</div>
+						<div class = "col-md-9">
+							<div class ="iconBriefContainer">
+								<p>Onyx Beacons, Android Device</p>
+								<p>Android Studio, Node.js, HTML/CSS </p>
+							</div>
+						</div>
+					</div>
+					<div class = "row">
+						<div class = "col-md-3">
+							<div id="circle"></div>
+						</div>
+						<div class = "col-md-9">
+							<div class ="iconBriefContainer">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam.</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class = "row"> -->
+						<!-- <div class ="carouselContainer"> -->
+							
+						<!-- </div> -->
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
