@@ -20,3 +20,21 @@ $text-color: #DBDBDB;
     display: block;
 }
 
+.constructionBanner{
+	background-color: red;
+	text-align: center;
+	color: black;
+}
+
+.text-muted{
+	color: black;
+	font-size: 20px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
