@@ -26,7 +26,7 @@ td.text{
 .centerpiece_about{
 	background: rgba(8, 74, 114, 0.25);
 	padding: 26px 26px;
-	
+
 }
 .centerpiece_about {
 	margin-left: auto;
@@ -55,13 +55,13 @@ td.text{
 	margin-left: 10%;
 	color: #FFF;
 	font-family: 'Lato', serif;
-	font-size: 18px;
+	font-size: 1vw;
 }
 h1{
-	font-size: 70px;
+	font-size: 4vw;
 }
 p.motto{
-	font-size: 30px;
+	font-size: 1.8vw;
 	font-style: italic;
 	color: #B8B8B8;
 }
@@ -76,6 +76,11 @@ p.block{
     max-width: 35%;
 
 }
+
+//For when the screen gets too small and text is too large for it
+
+
+
 
 //*******************************************************
 //Projects Page
