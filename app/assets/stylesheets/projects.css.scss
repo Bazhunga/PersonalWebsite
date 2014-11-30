@@ -36,6 +36,7 @@
 
 }
 
+
 .container{
 	margin-left: auto;
 	margin-right: auto;
@@ -97,3 +98,38 @@
 	padding-left: 25px;
 }
 
+
+@media (max-width: 995px) {
+    .mediaContainer
+    {
+		background: rgba(21, 137, 209, 0.5);
+
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+
+		margin-bottom: 15px;
+		margin-left: 5%;
+
+	}
+	.bulletContainer{
+		background: rgba(163, 59, 219, 0.26);
+		padding-right: 5%;
+		padding-left: 3%;
+		padding-top: 40px;
+		padding-bottom: 10px;
+
+		margin-bottom: 15px;
+		margin-left: 5%;
+	}
+	.descriptionContainer{
+		background: rgba(8, 74, 114, 0.5);
+		padding-right: 5%;
+		padding-left: 2%;
+		padding-bottom: 2%;
+		padding-top: 2%;
+		margin-bottom: 15px;
+		margin-right: 10%;
+	}
+}
