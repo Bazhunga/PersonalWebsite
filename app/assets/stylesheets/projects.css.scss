@@ -70,23 +70,13 @@
 	padding-left: 1%;
 
 }
-.left_img {
+
+.left_img, .right_descrip{
     display:table !important;
     table-layout: fixed;
     height:6vw;
 }
-.ci_cont{
-	display:table-cell;
-    vertical-align:middle;
-    text-align:center;
-}
-
-.right_descrip{
-	display:table !important;
-    table-layout: fixed;
-    height:6vw;
-}
-.iconBriefContainer{
+.ci_cont, .iconBriefContainer{
 	display:table-cell;
     vertical-align:middle;
 }
