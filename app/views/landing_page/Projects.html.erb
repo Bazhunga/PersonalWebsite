@@ -1,33 +1,55 @@
 <body class="bg">
-	<div class = "centerpiece_project">
-		<h1 class = "proj">Projects</h1>
-		<h2>Software</h2>
+	<h1 class = "proj">Projects</h1>
+	<div class = "row proj_vert_cell centerpiece_project">
 
-		<div class = "row">
-			<div class="col-md-6"><%= link_to "#{image_tag("Heatmap.JPG", :alt => "placeholder", :class => "projecttile ptleft")}".html_safe, "projects/Spur"%> </div>
-			<div class="col-md-6"><%= link_to "#{image_tag("hackathought_icon.png", :alt => "placeholder", :class => "projecttile ptright")}".html_safe, "projects/Allegro"%></div>
-		</div>
-		<div class = "row">
-			<div class="col-md-6"><%= link_to "#{image_tag("smsnow_icon.png", :alt => "placeholder", :class => "projecttile ptleft")}".html_safe, "projects/smsNOW"%></div>
-			<div class="col-md-6"><%= link_to "#{image_tag("myocont.jpg", :alt => "placeholder", :class => "projecttile ptright")}".html_safe, "projects/myoWASD"%> </div>
-		</div>
+		<div class="col-lg-4">
+			<h2>Software</h2>
+			<div class = "proj_pic_wrapper">
+				<div class = "row proj_vert_cell">
+					<%= link_to "#{image_tag("Heatmap.JPG", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/Spur"%>
+				</div>
+				<div class = "row proj_vert_cell">
+					<%= link_to "#{image_tag("hackathought_icon.png", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/Allegro"%>
+				</div>
+				
+				<div class = "row proj_vert_cell">
+					<%= link_to "#{image_tag("smsnow_icon.png", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/smsNOW"%>
+				</div>
 
-		<h2>Hardware</h2>
-		<div class = "row">
-			<div class="col-md-6"><%= link_to "#{image_tag("myomeu.jpg", :alt => "placeholder", :class => "projecttile ptleft")}".html_safe, "projects/AutoComis"%> </div>
-			<div class="col-md-6"><%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%></div>
-		</div>
-
-		<h2>Photography</h2>
-		<div class = "row">
-			<div class="col-md-6"><%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%> </div>
-			<div class="col-md-6"><%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%></div>
+				<div class = "row proj_vert_cell">
+					<%= link_to "#{image_tag("myocont.jpg", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/myoWASD"%> 
+				</div>
+			</div>
 		</div>
 
-		<div class = "empty"></div>
+		<div class="col-lg-4">
+			<h2>Hardware</h2>
+			<div class = "proj_pic_wrapper">
+				<div class = "row proj_vert_cell">
+					<%= link_to "#{image_tag("myomeu.jpg", :alt => "AutoComis", :class => "projecttile")}".html_safe, "projects/AutoComis"%> 
+				</div>
+				<div class = "row proj_vert_cell">
+					<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%>
+				</div>
+			</div>
 
-		<!-- Hovering over images causes side pane to become visible -->
-	</div>
+		</div>
+
+		<div class="col-lg-4">
+			<h2>(Photo||Video)graphy</h2>
+				<div class = "proj_pic_wrapper">
+				<div class = "row proj_vert_cell">
+					<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%> 
+				</div>
+				<div class = "row proj_vert_cell">
+					<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%>
+				</div>
+			</div>
+		</div>
+	</div>		
+	
+	<div class = "empty"></div>
+
 
 </body>
 

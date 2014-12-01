@@ -88,6 +88,7 @@ p.block{
 
 h1.proj{
 	font-size: 5.5vw;
+	margin-left: 2.5vw;
 }
 h2{	
 	font-size: 2.6vw;
@@ -95,26 +96,32 @@ h2{
 	margin-bottom: 20px;
 }
 .centerpiece_project {
-	margin-left: 6%;
-	margin-right: 6%;
-	margin-bottom: auto;
+	// margin-left: 6%;
+	// margin-right: 6%;
 	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
+.proj_pic_wrapper{
+	background: rgba(8, 74, 114, 0.5);
+	padding-top: 4vw;
+	padding-left: 5vw;
+}
 .container {
 	margin-top: 0px;
 	margin-left: 0px;
 
 }
+.proj_vert_cell{
+	height: 18vw;
+}
 
 .projecttile {
-	width: 30vw;
-	height: 17vw;
-	padding-right: 60px;
-	padding-bottom: 30px;
-	margin-bottom: 20px;
+	width: 100%;
+	margin-left: -2.7vw;
+	padding-bottom: 10px;
+	margin-top: -2.3vw;
 } 	
 
 @media (max-width: 995px) {
