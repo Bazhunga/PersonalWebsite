@@ -62,9 +62,39 @@
 	margin-bottom: 15px;
 }
 
+.event_banner{
+	width: 100%;
+	background: rgba(255, 255, 255, 1);
+
+	margin-right: 3%;
+	padding-left: 1%;
+
+}
+.left_img {
+    display:table !important;
+    table-layout: fixed;
+    height:6vw;
+}
+.ci_cont{
+	display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.right_descrip{
+	display:table !important;
+    table-layout: fixed;
+    height:6vw;
+}
 .iconBriefContainer{
-	
-	padding-bottom:10px;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+
+.circle_icon{
+	width: 5vw;
+	height: 5vw;
 }
 
 #circle {
@@ -133,3 +163,4 @@
 		margin-right: 10%;
 	}
 }
+
