@@ -1,5 +1,5 @@
-$navbar-height: 40px;
-$navbar-default-bg: #1774AD;
+$navbar-height: 44px;
+$navbar-default-bg: rgba(0, 105, 217, 0.6);
 $navbar-default-brand-color: #FFF;
 $navbar-default-border: #536899;
 $navbar-default-link-active-bg: #1A83C4;
@@ -15,7 +15,20 @@ $text-color: #DBDBDB;
 @import "bootstrap";
 
 
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a {
+	font-size:      1.1vw;
+	font-family: 'Open Sans', sans-serif;
+}
 
+a.navbar-brand {
+	font-size: 2vw;
+	font-family: 'Coda', sans-serif;
+	font-style: italic;
+	letter-spacing: 3px;
+	padding-left: 3vw;
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;

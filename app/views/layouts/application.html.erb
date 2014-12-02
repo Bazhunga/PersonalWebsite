@@ -9,6 +9,7 @@
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
 </head>
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -25,7 +26,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <li class =<%= @nav_status[0]%>><%= link_to "About Me", root_path%></li> <!--took out class="active"-->
         <li class =<%= @nav_status[1]%>><%= link_to "Projects", projects_path%></li>
         <li class =<%= @nav_status[2]%>><%= link_to "Github", "https://github.com/Bazhunga"%></li> <!--Was github_path-->
