@@ -55,10 +55,10 @@ td.text{
 	margin-left: 10%;
 	color: #FFF;
 	font-family: 'Lato', serif;
-	font-size: 1vw;
+	font-size: 1.2vw;
 }
 h1{
-	font-size: 4vw;
+	font-size: 5.4vw;
 }
 p.motto{
 	font-size: 1.8vw;
@@ -108,64 +108,6 @@ h2{
 	padding-left: 4vw;
 }
 
-@keyframes fadein {
-    from { background: rgba(8, 74, 114, 0.5); }
-    to   { background: rgba(63, 15, 122, 0.5); }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { background: rgba(8, 74, 114, 0.5); }
-    to   { background: rgba(63, 15, 122, 0.5); }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { background: rgba(8, 74, 114, 0.5); }
-    to   { background: rgba(63, 15, 122, 0.5); }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { background: rgba(8, 74, 114, 0.5); }
-    to   { background: rgba(63, 15, 122, 0.5); }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { background: rgba(8, 74, 114, 0.5); }
-    to   { background: rgba(63, 15, 122, 0.5); }
-}
-
-@keyframes fadeout {
-    from { background: rgba(63, 15, 122, 0.5);	}
-    to   {  background: rgba(8, 74, 114, 0.5); }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadeout {
-    from { background: rgba(63, 15, 122, 0.5);}
-    to   { background: rgba(8, 74, 114, 0.5);  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadeout {
-    from {  background: rgba(63, 15, 122, 0.5);}
-    to   {  background: rgba(8, 74, 114, 0.5);}
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadeout {
-    from { background: rgba(63, 15, 122, 0.5); }
-    to   { background: rgba(8, 74, 114, 0.5); }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadeout {
-    from { background: rgba(63, 15, 122, 0.5);}
-    to   { background: rgba(8, 74, 114, 0.5);  }
-}
-
 .proj_vert_cell_img{
 	background: rgba(8, 74, 114, 0.5);
 	height: 16vw;
@@ -178,6 +120,7 @@ h2{
          -o-animation: fadeout 0.5s; /* Opera < 12.1 */
             animation: fadeout 0.5s;
 }
+
 .proj_vert_cell_img:hover{
 	background: rgba(63, 15, 122, 0.5);
 	height: 16vw;
