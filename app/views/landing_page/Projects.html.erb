@@ -2,10 +2,16 @@
 	<div class = "row proj_vert_cell centerpiece_project">
 
 		<div class="col-lg-4">
-			<h2>Software</h2>
+			<h2 class = "proj">Software</h2>
 			<div class = "proj_pic_wrapper">
-				<div class = "row proj_vert_cell_img">
-					<%= link_to "#{image_tag("Heatmap.JPG", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/Spur"%>
+				<div class = "figure">
+					<div class = "row proj_vert_cell_img">
+						<%= link_to "#{image_tag("Heatmap.JPG", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/Spur"%>
+					</div>
+					<figcaption>
+						<h3>Spur Heatmapping</h3>
+						<span>Hardware/Software</span>
+					</figcaption>
 				</div>
 				<div class = "row proj_vert_cell_img">
 					<%= link_to "#{image_tag("hackathought_icon.png", :alt => "placeholder", :class => "projecttile")}".html_safe, "projects/Allegro"%>
@@ -22,7 +28,7 @@
 		</div>
 
 		<div class="col-lg-4">
-			<h2>Hardware</h2>
+			<h2 class = "proj">Hardware</h2>
 			<div class = "proj_pic_wrapper">
 				<div class = "row proj_vert_cell_img">
 					<%= link_to "#{image_tag("myomeu.jpg", :alt => "AutoComis", :class => "projecttile")}".html_safe, "projects/AutoComis"%> 
@@ -35,7 +41,7 @@
 		</div>
 
 		<div class="col-lg-4">
-			<h2>(Photo||Video)graphy</h2>
+			<h2 class = "proj">(Photo||Video)graphy</h2>
 				<div class = "proj_pic_wrapper">
 				<div class = "row proj_vert_cell_img">
 					<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "projecttile")%> 

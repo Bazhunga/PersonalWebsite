@@ -9,11 +9,12 @@ h1.proj{
 	font-size: 5.5vw;
 	margin-left: 2.5vw;
 }
-h2{	
+h2.proj{	
 	font-size: 2.6vw;
 	margin-right: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 }
+
 .centerpiece_project {
 	// margin-left: 6%;
 	// margin-right: 6%;
@@ -23,8 +24,7 @@ h2{
 }
 
 .proj_pic_wrapper{
-	padding-top: 3vw;
-	padding-left: 4vw;
+
 }
 
 .proj_vert_cell_img{
@@ -32,7 +32,7 @@ h2{
 	height: 16vw;
 	margin-bottom: 40px;
 	//Aligns with title
-	margin-left: -2.7vw; 
+	margin-left: 1.6vw; 
 	-webkit-animation: fadeout 0.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadeout 0.5s; /* Firefox < 16 */
         -ms-animation: fadeout 0.5s; /* Internet Explorer */
@@ -45,13 +45,12 @@ h2{
 	height: 16vw;
 	margin-bottom: 40px;
 	//Aligns with title
-	margin-left: -2.7vw; 
+	margin-left: 1.6vw; 
 	-webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0.5s; /* Firefox < 16 */
         -ms-animation: fadein 0.5s; /* Internet Explorer */
          -o-animation: fadein 0.5s; /* Opera < 12.1 */
             animation: fadein 0.5s;
-
 }
 
 .container {
@@ -70,15 +69,9 @@ h2{
 	margin-left: -1vw;
 	padding-bottom: 10px;
 	margin-top: -1vw;
-} 	
 
-// @media (max-width: 995px) {
-//     .projecttile{
-//         width: 73vw;
-// 		height: 41vw;
-//     }
-// }
-
+	transition: transform 0.4s;
+} 
 
 .empty{
 	height : 170px;
@@ -90,4 +83,8 @@ body.backgradient{
     background: -o-linear-gradient($darkerblue, $darkblue); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient($darkerblue, $darkblue); /* For Firefox 3.6 to 15 */
     background: linear-gradient($darkerblue, $darkblue); /* Standard syntax (must be last) */
+}
+
+//Popups
+.figure{
 }
