@@ -62,15 +62,55 @@ h2.proj{
 	height: 18vw;
 }
 
-.projecttile {
+.tile{
 	width: 1.77*16.5vw;
 	height:1*16.5vw;
 
 	margin-left: -1vw;
-	padding-bottom: 10px;
-	margin-top: -1vw;
+	margin-top: -1.5vw;
+	perspective: 1700px;
+    perspective-origin: 0 50%;
+}
+.tile figure{
+	transform-style: preserve-3d;
+}
 
-	transition: transform 0.4s;
+.tile figcaption{
+	height: 16.5vw;
+    width: 40%;
+    margin-top: -16.5vw;
+    opacity: 1;
+    transform-origin: 0 0;
+    transform: rotateY(-90deg);
+    transition: transform 0.3s, opacity 0.1s 0.3s;
+    background: rgba(8,147,207,0.7);
+}
+p.panel_h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 1.5vw;
+	margin-left: 1vw;
+	padding-top:1vw;
+	colour:#000 !important;
+
+}
+
+.no-touch .tile figure:hover figcaption,
+.tile figure:hover figcaption{
+	opacity: 1;
+    transform: rotateY(0deg);
+    transition: transform 0.4s, opacity 0.1s;
+}
+.paneltile{
+	width: 3.2vw;
+	height: 3.2vw;
+	margin-left: 1vw;
+	padding-top:0.2vw;
+}
+
+.projecttile {
+	width: 1.77*16.5vw;
+	height:1*16.5vw;
 } 
 
 .empty{
@@ -83,8 +123,4 @@ body.backgradient{
     background: -o-linear-gradient($darkerblue, $darkblue); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient($darkerblue, $darkblue); /* For Firefox 3.6 to 15 */
     background: linear-gradient($darkerblue, $darkblue); /* Standard syntax (must be last) */
-}
-
-//Popups
-.figure{
 }
