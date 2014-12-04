@@ -1,6 +1,6 @@
 <body class = "bg">
 <div class = "super_div" id = "banner_about">
-	<div class = "centerpiece_about" >
+	<div class = "centerpiece_about scene_fadein" >
 		<table class = "about_table" style="width:100%; align: center">
 			<tr class = "abt">
 				<td class = "pic">
@@ -22,4 +22,24 @@
 		</table>
 	</div>
 </div>
+<%= javascript_tag do %>
+  ;(function ($) {
+  'use strict';
+  var content  = $('#banner_about').smoothState({
+        // onStart runs as soon as link has been activated
+        onStart : {
+          
+          // Set the duration of our animation
+          duration: 250,
+          
+          // Alterations to the page
+          render: function () {
+
+            // Quickly toggles a class and restarts css animations
+            content.toggleAnimationClass('is-exiting');
+          }
+        }
+      }).data('smoothState'); // makes public methods available
+})(jQuery);
+<% end %>
 </body>

@@ -12,6 +12,8 @@ $darkerblue: #121d24;
 	background: url(sbg_cube_darkblur.jpg) repeat fixed;
 	background-size: 100%;
 	background-position: -5px -5px;
+	overflow: hidden;
+
 }
 
 .about_table{
@@ -32,11 +34,14 @@ td.text{
 		animation-duration: 0.25s;
 		transition-timing-function: ease-in;
 		animation-fill-mode: both;
+	}
+
+	.scene_fadein{
 		animation-name: fade_in_up;
 	}
 	&.is-exiting {
       .centerpiece_about {
-        animation-direction: alternate-reverse;
+		animation-direction: alternate-reverse;
       }
   }
 }
@@ -53,7 +58,6 @@ td.text{
 	margin-bottom: auto;
 	padding-left: 20%;
 	padding-right: 20%;
-
 }
 
 .profile-picture{
