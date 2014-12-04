@@ -55,3 +55,60 @@
     from { background: rgba(63, 15, 122, 0.5);}
     to   { background: rgba(8, 74, 114, 0.5);  }
 }
+
+//==================================================================
+//About Page Transitions
+//-----------------------------
+//Entrance: Fade up, y translation a bit
+@keyframes fade_in_up {
+    0%{
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+//Project Page Transitions
+//-----------------------------
+//Entrance: Each tile fades up one by one (column wise)
+
+//Specific Project transitions
+//-----------------------------
+//Entrance: Left panel fadeslides in from left. Right panels fadeslides in from right
+//          Title and stuff fadeslides in 
+
+@keyframes fade_in_right{
+    0%{
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    100%{
+        opacity: 1;
+        trasnform: none;
+    }
+}
+
+@keyframes fade_in_left{
+    0%{
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    100%{
+        opacity: 1;
+        trasnform: none;
+    }
+}
+
+@keyframes fade_appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+

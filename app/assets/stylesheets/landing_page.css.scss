@@ -25,11 +25,27 @@ td.text{
 	width: 60%;
 }
 
+
+
+.super_div{
+	.centerpiece_about{
+		animation-duration: 0.25s;
+		transition-timing-function: ease-in;
+		animation-fill-mode: both;
+		animation-name: fade_in_up;
+	}
+	&.is-exiting {
+      .centerpiece_about {
+        animation-direction: alternate-reverse;
+      }
+  }
+}
+
 .centerpiece_about{
 	background: rgba(8, 74, 114, 0.25);
 	padding: 26px 26px;
-
 }
+
 .centerpiece_about {
 	margin-left: auto;
 	margin-right: auto;
