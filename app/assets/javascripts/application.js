@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.smoothState.js
-//= require custom_transitions.js
+//= jquery.smoothState.js
+//= custom_transitions.js
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .

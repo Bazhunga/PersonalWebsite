@@ -27,20 +27,6 @@ td.text{
 	width: 60%;
 }
 
-
-
-.super_div{
-	.centerpiece_about{
-		animation-duration: 0.25s;
-		transition-timing-function: ease-in;
-		animation-fill-mode: both;
-	}
-
-	.scene_fadein{
-		animation-name: fade_in_up;
-	}
-}
-
 .centerpiece_about{
 	background: rgba(8, 74, 114, 0.25);
 	padding: 26px 26px;
@@ -54,6 +40,24 @@ td.text{
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
+.super_div{
+	.centerpiece_about{
+		animation-duration: 0.25s;
+		transition-timing-function: ease-in;
+		animation-fill-mode: both;
+	}
+
+	.scene_fadein{
+		animation-name: fade_in_up;
+	}
+	&.is-exiting{
+		.centerpiece_about{
+			animation-direction: alternate;
+		}
+	}
+}
+
 
 .profile-picture{
 	// width: $maxlength;
