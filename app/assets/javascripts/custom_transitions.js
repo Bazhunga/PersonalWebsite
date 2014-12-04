@@ -1,18 +1,20 @@
-;(function ($) {
+;(function($) {
   'use strict';
-  var content  = $('#banner_about').smoothState({
-        // onStart runs as soon as link has been activated
-        onStart : {
-          
-          // Set the duration of our animation
-          duration: 250,
-          
-          // Alterations to the page
-          render: function () {
-
-            // Quickly toggles a class and restarts css animations
+  var $body = $('html, body'),
+      content = $('#banner_about').smoothState({
+        // Runs when a link has been activated
+        onStart: {
+          duration: 250, // Duration of our animation
+          render: function (url, $container) {
+            // toggleAnimationClass() is a public method
+            // for restarting css animations with a class
             content.toggleAnimationClass('is-exiting');
+            // Scroll user to the top
+            $body.animate({
+              scrollTop: 0
+            });
           }
         }
-      }).data('smoothState'); // makes public methods available
+      }).data('smoothState');
+      //.data('smoothState') makes public methods available
 })(jQuery);

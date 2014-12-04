@@ -39,11 +39,6 @@ td.text{
 	.scene_fadein{
 		animation-name: fade_in_up;
 	}
-	&.is-exiting {
-      .centerpiece_about {
-		animation-direction: alternate-reverse;
-      }
-  }
 }
 
 .centerpiece_about{
