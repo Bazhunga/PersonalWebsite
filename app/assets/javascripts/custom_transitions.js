@@ -18,3 +18,4 @@
       }).data('smoothState');
       //.data('smoothState') makes public methods available
 })(jQuery);
+alert("wow");
