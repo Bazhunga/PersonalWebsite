@@ -91,6 +91,14 @@ ul.team_members, li.team_members{
     padding:0; 
 }
 
+ul.film_members, li.film_members{
+    list-style-position:inside;
+    margin:0;
+    padding:0; 
+    list-style-type: none;
+}
+
+
 .circle_icon{
 	width: 5vw;
 	height: 5vw;
@@ -163,3 +171,7 @@ ul.team_members, li.team_members{
 	}
 }
 
+.video{
+	text-align: center;
+	padding-bottom: 30px;
+}

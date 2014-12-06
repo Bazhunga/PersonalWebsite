@@ -4,6 +4,7 @@
       content = $('#banner_about').smoothState({
         // Runs when a link has been activated
         onStart: {
+
           duration: 250, // Duration of our animation
           render: function (url, $container) {
             // toggleAnimationClass() is a public method

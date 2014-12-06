@@ -26,4 +26,8 @@ class ProjectsController < ApplicationController
   def SproutMonitor
       @nav_status = ["","active","","","",""]
   end
+
+  def a_game_of_cat_and_mouse
+      @nav_status = ["","active","","","",""]
+  end
 end

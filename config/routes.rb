@@ -20,6 +20,8 @@ Rails.application.routes.draw do
 
     get 'projects/SproutMonitor'
 
+    get 'projects/a_game_of_cat_and_mouse'
+
   
   get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 

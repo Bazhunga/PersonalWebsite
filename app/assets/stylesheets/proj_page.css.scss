@@ -93,9 +93,18 @@ p.panel_h1{
 	padding-top:1vw;
 	color: #D0F2F7;
 	text-shadow: 0.2vw 0.2vw #365480;
-
 }
 
+p.panel_h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 0.95vw;
+	margin-left: 1vw;
+	padding-top:1vw;
+	color: #CCCCCC;
+	text-shadow: 0.1vw 0.1vw #365480;
+
+}
 .no-touch .tile figure:hover figcaption,
 .tile figure:hover figcaption{
 	opacity: 1;
