@@ -22,6 +22,8 @@ Rails.application.routes.draw do
 
     get 'projects/a_game_of_cat_and_mouse'
 
+    get 'projects/emamiHarmony'
+
   
   get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 

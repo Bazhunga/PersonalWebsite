@@ -23,7 +23,7 @@
 }
 
 //=======================================================
-.mediaContainer{
+.mediaContainer, .videoSide{
 	background: rgba(21, 137, 209, 0.5);
 	padding-right: 5%;
 	padding-left: 5%;
@@ -33,9 +33,23 @@
 	margin-right: 10%;
 	margin-left: 0;
 	margin-bottom: 15px;
-
+}
+.videoSide{
+	text-align: center;
 }
 
+.videoMain{
+	text-align: center;
+	background: rgba(21, 137, 209, 0.5);
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	margin-right: 4.2vw;
+	margin-left: 2.1vw;
+	margin-bottom: 15px;
+}
 
 .container{
 	margin-left: auto;
@@ -171,7 +185,7 @@ ul.film_members, li.film_members{
 	}
 }
 
-.video{
-	text-align: center;
-	padding-bottom: 30px;
+.projTitle{
+	width: 60%;
+	margin-left: 2.8vw;
 }

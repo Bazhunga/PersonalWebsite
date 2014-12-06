@@ -30,4 +30,8 @@ class ProjectsController < ApplicationController
   def a_game_of_cat_and_mouse
       @nav_status = ["","active","","","",""]
   end
+
+  def emamiHarmony
+      @nav_status = ["","active","","","",""]
+  end
 end

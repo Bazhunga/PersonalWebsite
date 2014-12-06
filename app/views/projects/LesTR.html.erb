@@ -16,16 +16,37 @@
 						<div class="descSubtitle">What it is</div>
 						<div class="descElab">
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam. Etiam malesuada tempor ultrices. Sed varius diam eu ex accumsan pulvinar vitae bibendum est. Nunc aliquet pellentesque luctus. Nam nunc tortor, consequat id odio sed, fringilla iaculis neque. Donec porttitor non erat ac tempus. Nulla non pulvinar tortor. Vestibulum vehicula rutrum augue. Etiam viverra maximus mauris, vel aliquam risus feugiat id. Etiam ullamcorper tempor felis at elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								For our 2nd year Engineering Design Robotics course, a team of 3 of us was tasked to create, from scratch, a quality-assurance machine that can evaluate 7-LED hexagonal headlights. 
 							</p>
 						</div>
-						<div class="descSubtitle">Motivation</div>
+						<div class="descSubtitle">How it works</div>
 						<div class="descElab">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam. Etiam malesuada tempor ultrices. Sed varius diam eu ex accumsan pulvinar vitae bibendum est. Nunc aliquet pellentesque luctus. Nam nunc tortor, consequat id odio sed, fringilla iaculis neque. Donec porttitor non erat ac tempus. Nulla non pulvinar tortor. Vestibulum vehicula rutrum augue. Etiam viverra maximus mauris, vel aliquam risus feugiat id. Etiam ullamcorper tempor felis at elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p>
+								The brain, programmed in assembly, operates motors and solenoid clickers to rotate lights into position and evaluate their LEDS. It gathers information from photoresistors and microswitches and evaluates whether lights were present and if they exceeded the light threshold that indicates a pass. All components are mounted to a wooden-aluminum chassis. 
+							</p>
+							<p>
+								Users will be able to see which lights are faulty and exactly which LEDs are not up to par. 
+							</p>
+						</div>
+						<div class="descSubtitle">Inspiration of design</div>
+						<div class="descElab">
+							<p> 
+								We drew inspiration from assembly lines, where many complex machines intertwine to completely make and test a product as simple as a bottle of coke to something as complex as the engine of a car. Our machine was designed to be like a component of an assembly line, with a rotating platform to continuously test lights for faults.
+							</p>
+						</div>
+						<div class="descSubtitle">Improvements</div>
+						<div class="descElab">
+							<p>
+								When it comes to testing for failure, speed and accuracy are key. A stronger motor with greater torque, like a large stepper, would have been able to bring the hefty 7 lights into position more fluidly. Higher tech, like lasers, would've added to the accuracy of light placement detection, rather than a bulky microswitch.
+							</p>
+							<p>	
+								If our machine were to be a part of the assembly line, it must have an autofeeder to load the tray and a popper to dump the tested lights to appropriately marked "pass" and "fail" bins.
+							</p>
+
 						</div>
 						<div class="descSubtitle">Source Code</div>
 						<div class="descElab">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam. Etiam malesuada tempor ultrices. Sed varius diam eu ex accumsan pulvinar vitae bibendum est. Nunc aliquet pellentesque luctus. Nam nunc tortor, consequat id odio sed, fringilla iaculis neque. Donec porttitor non erat ac tempus. Nulla non pulvinar tortor. Vestibulum vehicula rutrum augue. Etiam viverra maximus mauris, vel aliquam risus feugiat id. Etiam ullamcorper tempor felis at elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							You can check out the brain code <a href="https://github.com/Bazhunga/LesTR_The_Light_Testing_Robot">here</a>!<br>
 
 						</div>
 					</div>
@@ -33,86 +54,103 @@
 			</div>
 			<!-- Title, brief, photo section -->
 			<div class = "col-md-6">
-				<div class = "mediaContainer">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="false" data-interval="false">
-					  	<!-- Indicators -->
-					  	<ol class="carousel-indicators">
-					    	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						  </ol>
+				<div class = "row">
+					<div class = "mediaContainer">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="false" data-interval="false">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>
 
-					  	<!-- Wrapper for slides -->
-					  	<div class="carousel-inner" role="listbox">
-					    	<div class="item active">
-				      			<%= image_tag("Heatmap.JPG", :alt => "HeatMap", :class => "carouImage") %>
-					      		<div class="carousel-caption">
-						        	Heatmapping the skating rink
-					      		</div>
-					    	</div>
-					    	<div class="item">
-					      		<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "carouImage") %>
-					      		<div class="carousel-caption">
-						        
-					      		</div>	
-					    	</div>
-					    	
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "carouImage") %>
+									<div class="carousel-caption">
+
+									</div>	
+								</div>
+								<div class="item">
+									<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "carouImage") %>
+									<div class="carousel-caption">
+
+									</div>	
+								</div>
+								<div class="item">
+									<%= image_tag("placeholder2.jpg", :alt => "placeholder", :class => "carouImage") %>
+									<div class="carousel-caption">
+
+									</div>	
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
 						</div>
-
-					  	<!-- Controls -->
-					  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    	<span class="sr-only">Previous</span>
-					  	</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    	<span class="sr-only">Next</span>
-						</a>
-					</div>
-					<!-- <div class = "row"> -->
+						<!-- <div class = "row"> -->
 						<!-- <div class ="carouselContainer"> -->
-							
+
 						<!-- </div> -->
-					<!-- </div> -->
+						<!-- </div> -->
+					</div>
 				</div>
-			</div>
-			<div class = "col-md-6">
-				<div class = "bulletContainer">
-					<div class = "row">
-						<div class = "col-md-3 text-center left_img">
-							<div class = "ci_cont">
-								<%=image_tag("when_icon.png", :alt => "placeholder", :class => "circle_icon")%>
-							</div>
-						</div>
-						<div class = "col-md-9 right_descrip">
-							<div class ="iconBriefContainer">
-								<%=image_tag("sportshack_eventlogo.png", :alt => "Sportshack14 logo", :class => "event_banner")%>
-							</div>
-						</div>
+				<div class = "row">
+					<div class = "videoSide">
+						<iframe width="600vw" height="400vw" src="//www.youtube.com/embed/eXKlJEXV320" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class = "row">
-						<div class = "col-md-3 text-center left_img">
-							<div class = "ci_cont">
-								<%=image_tag("materials_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+				</div>
+				<div class = row>
+					<div class = "bulletContainer">
+						<div class = "row">
+							<div class = "col-md-3 text-center left_img">
+								<div class = "ci_cont">
+									<%=image_tag("when_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+								</div>
+							</div>
+							<div class = "col-md-9 right_descrip">
+								<div class ="iconBriefContainer">
+									<p>University of Toronto Engineering Design Robotics Course (AER201)</p>
+								</div>
 							</div>
 						</div>
-						<div class = "col-md-9 right_descrip">
-							<div class ="iconBriefContainer">
-								<p>Onyx Beacons, Android Device</p>
-								<p>Android Studio, Node.js, HTML/CSS </p>
+						<div class = "row">
+							<div class = "col-md-3 text-center left_img">
+								<div class = "ci_cont">
+									<%=image_tag("materials_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+								</div>
+							</div>
+							<div class = "col-md-9 right_descrip">
+								<div class ="iconBriefContainer">
+									<p>Circuit elements</p>
+									<p>Wood, Aluminum</p>
+									<p>Assembly</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-md-3 text-center left_img">
-							<div class = "ci_cont">
-								<%=image_tag("teammates_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+						<div class = "row">
+							<div class = "col-md-3 text-center left_img">
+								<div class = "ci_cont">
+									<%=image_tag("teammates_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+								</div>
 							</div>
-						</div>
-						<div class = "col-md-9 right_descrip">
-							<div class ="iconBriefContainer">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim diam, euismod vitae pharetra in, fermentum eget risus. Duis sit amet est consequat, consectetur urna non, sollicitudin quam.</p>
+							<div class = "col-md-9 right_descrip">
+								<div class ="iconBriefContainer">
+									<ul class = "team_members">
+										<li class = "team_members">Programming: Kevin Zhu</li>
+										<li class = "team_members">Circuitry: Peihong Li</li>
+										<li class = "team_members">Electromech: Andrei Dranka</li>
+
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
