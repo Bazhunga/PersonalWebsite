@@ -240,6 +240,9 @@ body.backgradient{
 		-o-box-shadow: 0.2vw 0.2vw  rgba(0,0,0,0.6); 
 		border-radius:100px;
 	}
+	.empty{
+	height : 170px;
+}
 }
 
 @media (max-width: 600px) {
@@ -341,4 +344,7 @@ body.backgradient{
 		-o-box-shadow: 0.2vw 0.2vw  rgba(0,0,0,0.6); 
 		border-radius:100px;
 	}
+	.empty{
+	height : 170px;
+}
 }
