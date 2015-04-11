@@ -1,4 +1,9 @@
 class ProjectsController < ApplicationController
+
+  def Xpense
+      @nav_status = ["","active","","","",""]
+  end
+
   def Spur
       @nav_status = ["","active","","","",""]
   end
@@ -34,4 +39,6 @@ class ProjectsController < ApplicationController
   def emamiHarmony
       @nav_status = ["","active","","","",""]
   end
+
+
 end

@@ -24,6 +24,8 @@ Rails.application.routes.draw do
 
     get 'projects/emamiHarmony'
 
+    get 'projects/Xpense'
+
   
   get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 
