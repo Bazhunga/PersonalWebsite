@@ -26,6 +26,8 @@ Rails.application.routes.draw do
 
     get 'projects/Xpense'
 
+    get 'projects/BubbleTask'
+
   
   get 'projectsSoftware' => 'landing_page#ProjectsSoftware'
 

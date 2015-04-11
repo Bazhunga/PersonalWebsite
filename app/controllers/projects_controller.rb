@@ -4,6 +4,10 @@ class ProjectsController < ApplicationController
       @nav_status = ["","active","","","",""]
   end
 
+  def BubbleTask
+      @nav_status = ["","active","","","",""]
+  end
+
   def Spur
       @nav_status = ["","active","","","",""]
   end
