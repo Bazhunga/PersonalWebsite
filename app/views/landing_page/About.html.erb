@@ -1,4 +1,4 @@
-<body class = "bg">
+<!-- <body class = "bg">
 <div class = "super_div" id = "banner_about">
 	<div class = "centerpiece_about scene_fadein" >
 		<table class = "about_table" style="width:100%; align: center">
@@ -20,6 +20,33 @@
 				</td>
 			</tr>
 		</table>
+	</div>
+</div>
+
+</body> -->
+
+<body class = "bg">
+<div class = "super_div" id = "banner_about">
+	<div class = "centerpiece_about scene_fadein" >
+		<div class="row">
+			<div class = "col-lg-4 col-md-12 col-xs-12">
+				<div class = "pic">
+				<image>
+					<%= image_tag("DemoDay.jpg", :alt => "Kevin Zhu", :class => "profile-picture")%> 	
+				</image>
+			</div>
+			</div>
+			<div class = "col-lg-8">
+				<div class="intro-text">
+					<h1>Kevin Zhu</h1>
+					<p class = "motto">Live to learn. Learn to aspire. Aspire to build.</p>
+					<p.block>Welcome!</p>
+					<p.block>I'm an Engineering Science student at the University of Toronto specializing in Electrical Engineering. </p>
+					<p.block>I have a passion for designing and developing beautiful and user-friendly experiences on mobile, web and hardware platforms. I've built creative solutions to a wide variety of issues, ranging from road rage mitigation to tracking players of any sport with detailed heat maps. </p>
+					<p.block>Check out my <%= link_to "projects", projects_path %> and other interests!</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 

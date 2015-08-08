@@ -20,12 +20,37 @@ $darkerblue: #121d24;
 	table-layout: fixed;
 }
 
-td.pic{
-	width: 30%;
+.col-lg-4{
+	.pic{
+		width: 100%;
+		padding-top: 55px;
+		margin: auto;
+	}
+	.text{
+	}
 }
-td.text{
-	width: 60%;
+
+.col-md-12{
+	.pic{
+		width: 80%;
+		padding-top: 55px;
+		margin: auto;
+	}
+	.text{
+	}
 }
+
+.col-xs-12{
+	.pic{
+		width: 80%;
+		padding-top: 55px;
+		margin: auto;
+	}
+	.text{
+	}
+
+}
+
 
 .centerpiece_about{
 	background: rgba(8, 74, 114, 0.25);
@@ -41,24 +66,6 @@ td.text{
 	padding-right: 20%;
 }
 
-// .super_div{
-// 	.centerpiece_about{
-// 		animation-duration: 0.25s;
-// 		transition-timing-function: ease-in;
-// 		animation-fill-mode: both;
-// 	}
-
-// 	.scene_fadein{
-// 		animation-name: fade_in_up;
-// 	}
-// 	&.is-exiting{
-// 		.centerpiece_about{
-// 			animation-direction: alternate;
-// 		}
-// 	}
-// }
-
-
 .profile-picture{
 	// width: $maxlength;
 	// height: $maxlength;
@@ -73,17 +80,18 @@ td.text{
 	// -mox-border-radius: 100px;
 }
 .intro-text{
-	margin-left: 10%;
 	color: #FFF;
 	font-family: 'Lato', serif;
-	font-size: 1.1vw;
+	font-size: 18px;
 }
 
 h1{
-	font-size: 5.2vw;
+	font-size: 80px;
+	color: #BFC8E3;
+
 }
 p.motto{
-	font-size: 1.6vw;
+	font-size: 20px;
 	font-style: italic;
 	color: #B8B8B8;
 }
@@ -98,9 +106,6 @@ p.block{
     max-width: 35%;
 
 }
-
-//For when the screen gets too small and text is too large for it
-
 
 
 
