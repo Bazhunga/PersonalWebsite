@@ -23,10 +23,18 @@ $darkerblue: #121d24;
 .col-lg-4{
 	.pic{
 		width: 100%;
-		padding-top: 55px;
 		margin: auto;
+		position: relative;
+	  	top: 50%;
+	  	transform: translateY(-50%);
 	}
-	.text{
+}
+.col-lg-8{
+	.intro-text{
+		margin-left: 50px;
+		color: #FFF;
+		font-family: 'Lato', serif;
+		font-size: 18px;
 	}
 }
 
@@ -36,8 +44,6 @@ $darkerblue: #121d24;
 		padding-top: 55px;
 		margin: auto;
 	}
-	.text{
-	}
 }
 
 .col-xs-12{
@@ -46,9 +52,6 @@ $darkerblue: #121d24;
 		padding-top: 55px;
 		margin: auto;
 	}
-	.text{
-	}
-
 }
 
 
@@ -67,22 +70,11 @@ $darkerblue: #121d24;
 }
 
 .profile-picture{
-	// width: $maxlength;
-	// height: $maxlength;
 	border-radius: 300px;
-    max-width: 100%;
+    max-width: 120%;
 	float: left;
 	margin-right: 50px;
 	margin-top: 0px;
-	// margin-left: 16%;
-
-  	// -webkit-border-radius: 100px;
-	// -mox-border-radius: 100px;
-}
-.intro-text{
-	color: #FFF;
-	font-family: 'Lato', serif;
-	font-size: 18px;
 }
 
 h1{
@@ -98,14 +90,4 @@ p.motto{
 p.block{
 	margin: 40px;
 }
-.box{
-	margin-left: 5%;
-	text-align: left;
-	display:inline-block;
-    margin-left: 30px;
-    max-width: 35%;
-
-}
-
-
 
