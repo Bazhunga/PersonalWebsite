@@ -1,0 +1,143 @@
+<body class = "bg"> 
+    <!-- 2 Panel Style. Left is Title, classifications and right is description-->
+    <div class = "allWrap">
+        <div class = "row">
+            <div class ="bigTitle">Bubble Task</div>
+        </div>
+        <div class = "row">
+            <div class ="subBigTitle">Pop that procrastination.</div>
+        </div>
+        <div class = "row">
+            <!-- Description section -->
+            <div class = "col-md-6">
+                <div class = "descriptionContainer">
+                    <div class = "row">
+                        <div class="descSubtitle">What it is</div>
+                        <div class="descElab">
+                            <p>
+                                There are tons of checklist/to-do sort of apps on the app store, all with extremely similar functionality; you can add a task, set its priority, and give yourself a deadline. 
+                            </p>
+                            <p>
+                                While all the apps allow you to record what needs to be done, they're not incredibly creative when it comes to pestering you to abide by your vows. "Oh no! Your task is overdue!" followed by a feeble vibrate is commonly used, but with vibrations now representing something more interesting like Facebook notifications, the alert isn't satisfying, motivating, or helpful.  
+                            </p>
+                            <p>
+                                Bubble Task takes your to-do list, generates bubbles of which sizes are dependent on priorities and days until the deadline, and then launches them into motion. With the heftier bubbles traveling more slowly than the speedy small bubbles,you can see what's the biggest thing you'll have to tackle at a glance. No more indecisiveness on what should be completed next!
+                            </p>
+                            
+                            <p>
+
+                            </p>
+                        </div>
+
+                        <div class="descSubtitle">Motivation</div>
+                        <div class="descElab">
+                            <p>
+                                There are tons of checklist/ToDo sort of apps on the app store, all with extremely similar functionality; you can add a task, set its priority, and give yourself a deadline. While all the apps allow you to record what needs to be done, they're not incredibly creative when it comes to pestering you to abide by your vows. "Oh no! Your task is overdue!" is common, and it isn't satisfying.  
+                            </p>
+                            <p>
+
+                            </p>
+                        </div>
+                        <div class="descSubtitle">Future steps</div>
+                        <div class="descElab">
+                            <p>
+                                To make the app even more effective at popping procrastination, I'd like to create a constantly updating widget would be perfect for updating users constantly. During crunch times, yank this onto the home page and always be in the know of what to do next. 
+                            </p>
+                            <p>
+                                
+                            </p>
+                        </div>
+                        <div class="descSubtitle">Source Code</div>
+                        <div class="descElab">
+                            You can check out the source code <a href="https://github.com/Bazhunga/BubbleTask">here</a>!<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Title, brief, photo section -->
+            <div class = "col-md-6">
+                <div class = "row">
+                    <div class = "mediaContainer">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="false" data-interval="false">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <%= image_tag("bubbletask_swipe.png", :alt => "placeholder", :class => "carouImage") %>
+                                </div>
+                                <div class="item">
+                                    <%= image_tag("bubbletask_menu.png", :alt => "placeholder", :class => "carouImage") %>
+                                </div>
+                                <div class="item">
+                                    <%= image_tag("bubbletask_bubble.png", :alt => "placeholder", :class => "carouImage") %>
+                                </div>
+                                <div class="item">
+                                    <%= image_tag("bubbletask_new.png", :alt => "placeholder", :class => "carouImage") %>
+                                </div>
+                                <div class="item">
+                                    <%= image_tag("bubbletask_nav.png", :alt => "placeholder", :class => "carouImage") %>
+                                </div>
+                                
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- <div class = "row"> -->
+                        <!-- <div class ="carouselContainer"> -->
+
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "bulletContainer">
+                        <div class = "row">
+                            <div class = "col-md-3 text-center left_img">
+                                <div class = "ci_cont">
+                                    <%=image_tag("when_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+                                </div>
+                            </div>
+                            <div class = "col-md-9 right_descrip">
+                                <div class ="iconBriefContainer">
+                                    <p>Side Project</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-md-3 text-center left_img">
+                                <div class = "ci_cont">
+                                    <%=image_tag("materials_icon.png", :alt => "placeholder", :class => "circle_icon")%>
+                                </div>
+                            </div>
+                            <div class = "col-md-9 right_descrip">
+                                <div class ="iconBriefContainer">
+                                    <p>Android Device</p>
+                                    <p>Android Studio</p>
+                                    <p>Java, XML, MySQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+

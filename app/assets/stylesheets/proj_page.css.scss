@@ -66,14 +66,16 @@ h2.proj{
 	width: 1.77*16.5vw;
 	height:1*16.5vw;
 
-	margin-left: -1vw;
+	margin-left: -0.7vw;
 	margin-top: -1.5vw;
 	perspective: 1700px;
 	perspective-origin: 0 50%;
 }
+
 .tile figure{
 	transform-style: preserve-3d;
 }
+
 
 .tile figcaption{
 	height: 16.5vw;
@@ -85,6 +87,14 @@ h2.proj{
 	transition: transform 0.3s, opacity 0.1s 0.3s;
 	background: rgba(8,147,207,0.7);
 }
+
+
+.projecttile {
+	width: 1.77*16.5vw;
+	height:1*16.5vw;
+	overflow: hidden;
+} 
+
 p.panel_h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
@@ -122,11 +132,6 @@ p.panel_h2{
 	-o-box-shadow: 0.2vw 0.2vw  rgba(0,0,0,0.6); 
 	border-radius:100px;
 }
-
-.projecttile {
-	width: 1.77*16.5vw;
-	height:1*16.5vw;
-} 
 
 .empty{
 	height : 170px;
